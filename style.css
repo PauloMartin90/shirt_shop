@@ -13,7 +13,12 @@
     
         .column1, .column2, .column3 {
             float: left;
-            margin: 20px;
+            margin: 10px;
+        }
+
+        .row1, .row2 {
+            float: inline-start;
+            margin: 10px;
         }
 
         .container {
@@ -53,8 +58,8 @@
 
           .image {
             display: block;
-            width: 200px;
-            height: 200px;
+            width: 100%;
+            height: 100%;
           }
           
 
@@ -65,7 +70,6 @@
 
         }
 
-
         nav ul {
             margin: 0px;
             padding: 5px 0px 5px 30px
@@ -73,8 +77,17 @@
 
         nav li {
             display: inline;
+            border: solid black 1pt;
+            display: inline;
             margin-right: 40px;
         
+        }
+
+        p {
+            background-color: burlywood;
+            height: 100%;
+            width: 100%;
+            border: solid black 1pt;
         }
 
     
