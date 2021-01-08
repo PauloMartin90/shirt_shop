@@ -38,8 +38,3 @@ function summ() {
 }
 
 
-function confirmation() {
-    
-    let confirmation = prompt("pick a number 1-100")
-
-}
