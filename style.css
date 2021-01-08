@@ -1,25 +1,95 @@
 
         body {
             background-color: #008cff;
-            background-position: absolute;
-
+            background-image: "img/MR_T_Background.jpg" ;
+            background-position: center;    
         }
 
         header, footer {
-            background-color: #008cff;
+            height: 160px;
+            background-color: #0a487e;
+            position: center;
 
         }
-    
-        .column1, .column2, .column3 {
+
+        h1 {
+            text-indent: -9999px;
+            width: 940px;
+            height: 130px;
+            margin: 0px;
+        }
+        
+        
+        nav, footer {
+            clear: both;
+            color: #000000;
+            background-color: #bd5b9f;
+            height: 30px;
+        }
+
+        nav ul {
+            margin: 0px;
+            padding: 5px 0px 5px 30px
+        }
+
+        nav li {
+            display: inline;
+            border: solid black 1pt;
+            display: inline;
+            margin-right: 40px;
+        }
+
+        nav li a {
+            color: #ffffff;
+        }
+
+        section.shop {
             float: left;
-            margin: 10px;
+            width: 659px;
+            border-right: 1px solid #eeeeee;
         }
 
-        .row1, .row2 {
-            float: inline-start;
-            margin: 10px;
+        article {
+            clear: both;
+            overflow: auto;
+            width: 100%;
         }
 
+        hgroup {
+            margin: 40px;
+        }
+
+        figure {
+            float: left;
+            width: 400px;
+            height: 400px;
+            padding: 5px;
+            margin: 20px;
+            border: 1px solid #eeeeee;
+        }
+
+        figcaption {
+            font-size: 90%;
+            text-align: left;
+        }
+
+        aside {
+            width
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+
+        p {
+            background-color: burlywood;
+            height: 100%;
+            width: 100%;
+            border: solid black 1pt;
+        }
+
+    
         .container {
             position: relative;
             width: 50%;
@@ -60,33 +130,4 @@
             width: 100%;
             height: 100%;
           }
-          
-
-          nav, footer {
-            clear: both;
-            color: #000000;
-            background-color: #bd5b9f;
-
-        }
-
-        nav ul {
-            margin: 0px;
-            padding: 5px 0px 5px 30px
-        }
-
-        nav li {
-            display: inline;
-            border: solid black 1pt;
-            display: inline;
-            margin-right: 40px;
         
-        }
-
-        p {
-            background-color: burlywood;
-            height: 100%;
-            width: 100%;
-            border: solid black 1pt;
-        }
-
-    
